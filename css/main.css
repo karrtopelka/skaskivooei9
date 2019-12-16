@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap&subset=cyrillic');
+
+html {
+    font-family: 'Comfortaa', cursive !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    background-image: url(../img/lviv_bg.jpg);
+    background-size: cover;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header * {
+    padding: 0.4em;
+}
+
+header p {
+    font-size: 1.3em !important;
+}
+
+.facts {
+    height: 300vh;
+    display: flex;
+}
+
+.facts-title {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    background-color: #283149;
+    color: #fff;
+}
+
+.facts-title h2 {
+    font-size: 4em !important;
+}
+
+.facts-pages {
+    width: 50%;
+}
+
+.facts-pages div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.facts-pages div>h2 {
+    font-size: 3em !important;
+    padding: 1.5em;
+}
+
+.facts-pages div>p {
+    width: 80%;
+    font-size: 1.5em !important;
+    line-height: 24px;
+    text-align: center;
+}
+
+.facts-pages div:nth-child(1) {
+    background-color: #404b69;
+}
+
+.facts-pages div:nth-child(2) {
+    background-color: #5d5d81;
+}
+
+.facts-pages div:nth-child(3) {
+    background-color: #694873;
+}
+
+.how-to-get {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.how-to-get h2 {
+    font-size: 4em !important;
+    padding: 1.3em;
+}
+
+.ion-icons * {
+    font-size: 3em !important;
+    padding: 0 1.2em 0 1.2em;
+}
+
+.how-to-get div {
+    transition: all 1s;
+}
+
+.for-icon-one, .for-icon-two, .for-icon-three, .for-icon-four {
+    display: none
+}
+
+.htg {
+    height: 400vh;
+    display: flex;
+}
+
+.htg-title {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    background-color: #283149;
+    color: #fff;
+}
+
+.htg-title h2 {
+    font-size: 4em !important;
+}
+
+.htg-pages {
+    width: 50%;
+}
+
+.htg-pages div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.htg-pages div>h2 {
+    font-weight: 700 !important;
+    font-size: 3em !important;
+    padding: 1.5em;
+}
+
+.htg-pages div>p {
+    width: 80%;
+    font-size: 1.5em !important;
+    line-height: 24px;
+    text-align: center;
+}
+
+.htg-pages div>ul {
+    padding: 5em;
+}
+
+.htg-pages div>ul>li {
+    padding: 1em 0 0 0;
+    font-size: 1.2em !important;
+    width: 100%;
+}
+
+.htg-pages div:nth-child(1) {
+    background-color: #404b69;
+}
+
+.htg-pages div:nth-child(2) {
+    background-color: #5d5d81;
+}
+
+.htg-pages div:nth-child(3) {
+    background-color: #694873;
+}
+
+.htg-pages div:nth-child(4) {
+    background-color: #8b728e;
+}
+
+.wait {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.wait h2 {
+    font-size: 5em !important;
+}
+
+.newsletter {
+    padding: 140px 0;
+    background: #161616;
+}
+
+.newsletter input {
+    text-transform: uppercase;
+}
+
+.newsletter .news-data {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.newsletter h1 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.newsletter .form-control {
+    height: 50px;
+    border-color: #fff;
+    border-radius: 0 !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+::placeholder {
+    letter-spacing: 4px;
+}
+
+.newsletter .btn {
+    min-height: 50px;
+    padding: 0 30px;
+    border-radius: 0;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Poppins !important;
+}
+
+input:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+textarea:focus {
+    outline: none !important;
+    border: none !important;
+}
