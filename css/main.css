@@ -197,6 +197,10 @@ header p {
     color: #fff;
 }
 
+.wait img {
+    width: 200px;
+}
+
 .wait h2 {
     font-size: 5em !important;
 }
@@ -249,6 +253,50 @@ header p {
     font-family: Poppins !important;
 }
 
+#contact-form {
+    margin: 5% 0;
+}
+
+.contact-us {
+    font-size: 3em !important;
+}
+
+.contact-uss {
+    font-size: 1.2em !important;
+}
+
+.contact .icon-title {
+    margin-top: 10px;
+    color: #000;
+}
+
+#contact-form ul {
+    list-style: none;
+    margin-bottom: 40px;
+    border-radius: 0;
+}
+
+#contact-form li:last-of-type {
+    border-bottom: none;
+}
+
+#contact-form label {
+    display: block;
+    font-size: 22px;
+    color: rgb(97, 97, 97);
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    resize: vertical;
+    background: transparent;
+    color: #101010;
+    font-weight: 800;
+}
+
 input:focus {
     outline: none !important;
     border: none !important;
@@ -257,4 +305,52 @@ input:focus {
 textarea:focus {
     outline: none !important;
     border: none !important;
+}
+
+button {
+    background: none;
+    border: .3pt solid rgba(136, 93, 184, 0.7);
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    letter-spacing: 2px;
+    padding: 18px 36px;
+}
+
+.textarea {
+    border-bottom: 1px solid #c9c9c9;
+}
+
+@media(max-width: 900px) {
+    #contact-form {
+        margin: 5% 0;
+        width: 98%;
+    }
+}
+
+@media(max-width: 1400px) {
+    header h1 {
+        text-align: center;
+    }
+
+    .facts-heading {
+        text-align: center;
+    }
+
+    .htg-heading {
+        padding: 0 !important;
+    }
+
+    .htg-pages ul {
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .wait img {
+        width: 200px;
+    }
+
 }
