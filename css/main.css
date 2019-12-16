@@ -109,7 +109,10 @@ header p {
     transition: all 1s;
 }
 
-.for-icon-one, .for-icon-two, .for-icon-three, .for-icon-four {
+.for-icon-one,
+.for-icon-two,
+.for-icon-three,
+.for-icon-four {
     display: none
 }
 
