@@ -354,3 +354,31 @@ button {
     }
 
 }
+
+@media(max-width: 900px) {
+    header h1 {
+        text-align: center;
+    }
+
+    .facts-heading {
+        text-align: center;
+    }
+
+    .htg-heading {
+        padding: 0 !important;
+    }
+
+    .htg-pages ul {
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .wait img {
+        width: 150px;
+    }
+
+}
